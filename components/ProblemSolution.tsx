@@ -49,11 +49,11 @@ const ProblemSolution: React.FC = () => {
                 <CheckCircle2 className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white mb-2">Structure without Slowdown</h3>
+                <h3 className="text-xl font-bold text-white mb-2">PRDs, TDD, and Clean Commits</h3>
                 <p className="text-gray-400 leading-relaxed">
-                  MindContext adds the missing layer of structure. It organizes your AI's context 
-                  separately from your source code, keeping your workflow fast but your 
-                  output professional.
+                  MindContext teaches your AI to think in PRDs, write tests first (TDD),
+                  and maintain clean git history. Shadow Engineering keeps AI context
+                  separate from your production code—ship with confidence.
                 </p>
               </div>
             </div>

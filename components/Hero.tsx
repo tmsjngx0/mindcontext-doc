@@ -17,34 +17,37 @@ const Hero: React.FC = () => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
           </span>
-          v1.0 Public Release
+          Free & Open Source • Claude Code Plugin
         </motion.div>
 
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-200 to-gray-400"
         >
-          MindContext
+          Stop Debugging.
+          <br />
+          Start Engineering.
         </motion.h1>
 
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-2xl md:text-3xl font-light text-cyan-400 mb-6"
         >
-          The thinking layer for AI-assisted engineering
+          Transform vibe code into production-ready software
         </motion.p>
 
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-xl text-gray-400 max-w-2xl mx-auto mb-10 font-mono"
+          className="text-xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed"
         >
-          From vibe code to production code.
+          Built with <span className="text-cyan-400 font-semibold">Cursor</span> or <span className="text-cyan-400 font-semibold">Lovable</span>?
+          Add structure, tests, and clean git history—without slowing down.
         </motion.p>
 
         <motion.div 
@@ -64,7 +67,7 @@ const Hero: React.FC = () => {
           </a>
           <div className="w-full sm:w-auto px-8 py-4 bg-white/5 border border-white/10 rounded-lg text-gray-300 font-mono text-sm flex items-center justify-center gap-2">
             <Terminal className="w-4 h-4 text-gray-500" />
-            /plugin install mindcontext...
+            /plugin install mindcontext-skills
           </div>
         </motion.div>
       </div>
