@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed"
         >
-          Built with <span className="text-cyan-400 font-semibold">Cursor</span> or <span className="text-cyan-400 font-semibold">Lovable</span>?
+          Built with <span className="text-cyan-400 font-semibold">vibe coding</span>?
           Add structure, tests, and clean git history—without slowing down.
         </motion.p>
 
